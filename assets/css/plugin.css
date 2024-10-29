@@ -1,0 +1,168 @@
+.plugin-content {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.paid-info, .orders-info {
+    text-align: left;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.mfp-input {
+    width: 70%;
+}
+
+.setting-form {
+    padding: 20px 30px;
+    margin:auto;
+    text-align: center;
+    width: 70%;
+}
+
+.radio-inline {
+    padding-left: 2rem;
+}
+
+input.search-input {
+    padding-left: 38px;
+    border-radius: 2rem!important;
+}
+
+.calendar-icon .dashicons, .calendar-icon .dashicons-before:before {
+    font-size: 30px;
+    margin-left: 10px;
+    width: auto;
+    height: auto;
+    margin-top: 2px;
+}
+
+.search-icon {
+    position: absolute;
+    z-index: 10;
+    top: 8px;
+    left: 26px;
+}
+
+.search-icon {
+    font-size: 1rem;
+}
+
+.wp-list-table .check-column input {
+    margin: 0 !important;
+}
+
+.badge {
+    font-size: 1rem;
+}
+
+.widefat th, .widefat td {
+    font-size: 15px!important;
+}
+
+#btn-sync-mul {
+    position: absolute;
+    font-size: .8rem;
+    top: -10px;
+}
+
+.check-column {
+    text-align: center!important;
+}
+
+.syn-mul-alert .swal2-html-container {
+    padding: 35px 10px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.syn-mul-alert .swal2-actions {
+    justify-content: flex-end;
+}
+
+.syn-mul-alert .swal2-styled.swal2-cancel, .syn-mul-alert .swal2-styled.swal2-confirm {
+    font-size: 0.8rem;
+}
+
+.widefat thead th, .widefat tfoot th {
+    font-weight: 600;
+}
+
+.widefat td .column-id {
+    font-weight: 600;
+}
+
+#adminmenu .wp-menu-image img {
+    padding: 5px 0 0 0;
+}
+
+#synced-orders-table .wp-list-table .column-id {
+    width: 10%;
+}
+
+#synced-orders-table .wp-list-table .column-date_created {
+    width: 10%;
+}
+
+#synced-orders-table .wp-list-table .column-customer_name {
+    width: 14%;
+}
+
+#synced-orders-table .wp-list-table .column-payment_status {
+    width: 10%;
+}
+
+#synced-orders-table .wp-list-table .column-fulfill_status {
+    width: 12%;
+}
+
+#synced-orders-table .wp-list-table .column-tracking_status {
+    width: 10%;
+}
+
+#synced-orders-table .wp-list-table .column-fulfill_cost {
+    width: 8%;
+}
+
+#synced-orders-table .wp-list-table .column-shipping_cost {
+    width: 8%;
+}
+
+#synced-orders-table .wp-list-table .column-status {
+    width: 10%;
+}
+
+#synced-orders-table .wp-list-table .column-action {
+    width: 125px;
+    text-align: center;
+}
+
+#synced-orders-table .wp-list-table .column-action .submit{
+    display: inline-flex;
+    text-align: center;
+}
+
+.button .dashicons {
+    margin-top: 4px;
+}
+
+.button-success {
+    color: #fff!important;
+    border-color: #28a745!important;
+    background: #28a745!important;
+}
+.spinner{
+    display: none;
+}
+.spinner.is-active{
+    display: block;
+}
+#unsynced-orders-table #action,
+#unsynced-orders-table .column-action {
+    text-align: center;
+}
+.column-action .spinner{
+    float: none;
+    display: inline-block;
+}
